@@ -1,1 +1,3 @@
 # Sparta_Global_SDET_Cucumber_Data_Tables
+
+This uses data tables to generate cucumber expressions to generate different error messages when inputting invalid passwords on the BBC registration page(https://www.bbc.co.uk/). Data tables is used for passing test data from feature files to your test scripts. The data table used in this lab is a data table that stores the passwords and the error messages that are displayed when this password is inputted. When using a data table it automatically reads the headers through and then goes onto to data to loop through the rows of data from the first data entry to the end. This also uses regex commands to make the step definitions more reusable and maintainable, it makes the cucumber code more flexible. 
